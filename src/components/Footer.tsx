@@ -1,4 +1,7 @@
-import { Heart, Phone, Mail, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { Heart, Phone, Mail, MapPin, Share2, ThumbsUp, Briefcase } from 'lucide-react';
+const Instagram = Share2;
+const Facebook = ThumbsUp;
+const Linkedin = Briefcase;
 
 export function Footer() {
   return (
